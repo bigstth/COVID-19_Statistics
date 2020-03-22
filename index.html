@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="myStyle.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Kanit&display=swap"
+      rel="stylesheet"
+    />
+    <title>COVID-19 Statistics</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="statistics">
+        <div class="total_case">
+          <h2>
+            <i class="fa fa-address-book" aria-hidden="true"></i>
+            จำนวนผู้ที่ติดเชื้อ
+          </h2>
+          <p style="font-size: 2.5rem;" id="total">-</p>
+        </div>
+
+        <div class="box_info">
+          <div class="box">
+            <h2>
+              <i class="fa fa-user-times" aria-hidden="true"></i>
+              เสียชีวิต
+            </h2>
+            <p style="font-size: 1.5rem;" id="total_death">-</p>
+          </div>
+          <div class="box">
+            <h2>
+              <i class="fa fa-refresh" aria-hidden="true"></i>
+              รักษาหาย
+            </h2>
+            <p style="font-size: 1.5rem;" id="total_recovered">-</p>
+          </div>
+          <div class="box">
+            <h2>
+              <i class="fa fa-user-plus" aria-hidden="true"></i>
+              ผู้ติดเชื้อรายวัน
+            </h2>
+            <p style="font-size: 1.5rem;" id="new_cases">-</p>
+          </div>
+          <div class="box">
+            <h2>
+              <i class="fa fa-user-circle-o" aria-hidden="true"></i>
+              ผู้เสียชีวิตรายวัน
+            </h2>
+            <p style="font-size: 1.5rem;" id="new_death">-</p>
+          </div>
+        </div>
+
+        <table class="countries_stats" id="countries_stat">
+          <tr>
+            <th>ประเทศ</th>
+            <th>ติดเชื้อ</th>
+            <th>เสียชีวิต</th>
+            <th>อาการร้ายแรง</th>
+            <th>รักษาหาย</th>
+          </tr>
+        </table>
+      </div><p style="text-align: center;color: chartreuse; font-size: 8px;">big♥</p>
+    </div>
+    <script src="myScript.js"></script>
+  </body>
+</html>

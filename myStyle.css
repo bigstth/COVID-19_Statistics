@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Kanit";
+  background: rgb(29, 29, 29);
+}
+
+.container {
+  width: 1040px;
+  margin: 0 auto;
+}
+i {
+  color: #f70000;
+}
+
+.statistics {
+  display: flex;
+  flex-direction: column;
+}
+
+.total_case {
+  margin-top: 2rem;
+  padding: 3rem;
+  text-align: center;
+  border-radius: 1rem;
+  background: white;
+  box-shadow: 5px 5px 40px rgba(0, 0, 0, 0.3);
+}
+.box_info {
+  margin-top: 1rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 1rem;
+  text-align: center;
+  border-radius: 15px;
+  background: white;
+  box-shadow: 5px 5px rgba(0, 0, 0, 0.3);
+}
+.box {
+  border-right: 1px solid rgb(216, 216, 216);
+}
+.box:last-child {
+  border: none;
+}
+
+.countries_stats {
+  width: 100%;
+  margin-top: 1rem;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 15px;
+  background: white;
+  box-shadow: 5px 5px rgba(0, 0, 0, 0.3);
+}
+table th {
+  background: rgb(168, 168, 168);
+  border-radius: 15px;
+}
+table tr:nth-child(odd){
+    background: rgb(216, 216, 216);
+}
+table tr:hover {
+  background: rgb(255, 212, 95);
+  transform: scale(1.05);
+  border-radius: 15px;
+}
